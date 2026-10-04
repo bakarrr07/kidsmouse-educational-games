@@ -1,0 +1,9 @@
+# Normalize line endings
+docs/*.html linguist-vendored
+src/**/*.tsx linguist-detectable
+docs/** linguist-vendored
+
+* text=auto
+* text=auto eol=lf
+*.map linguist-generated
+Cargo.lock linguist-generated
